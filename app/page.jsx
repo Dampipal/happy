@@ -55,7 +55,7 @@ export default function Home() {
   return (
     <div className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-br from-zinc-100 via-zinc-200 to-zinc-300 dark:from-black dark:via-zinc-900 dark:to-zinc-800 text-center p-6 transition-all">
       <h1 className="text-3xl font-semibold mb-8 text-zinc-800 dark:text-zinc-100 drop-shadow-sm">
-        🧠 Gemini AI — Image Number Detector
+        Image Number Detector
       </h1>
 
       {!selectedImage && (
@@ -119,7 +119,7 @@ export default function Home() {
 
       {/* Hint / Footer */}
       <p className="mt-10 text-sm text-zinc-600 dark:text-zinc-400">
-        Upload an image with numbers — Gemini AI will detect them for you.
+        Upload an image with numbers. AI will detect them for you.
       </p>
 
       {/* Extra styles for scanning animation */}
